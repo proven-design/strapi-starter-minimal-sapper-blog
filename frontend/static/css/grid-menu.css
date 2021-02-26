@@ -116,7 +116,7 @@
 .menu.bookfairs,
 .menu.efairs {
     display: none;
-    border-radius:14px;
+    /* border-radius:14px; */
 }
 nav.header {
     margin: 0 auto;
@@ -138,7 +138,7 @@ nav.header a {
     white-space: nowrap;
     min-width: 100px;
     text-align: center !important;
-    border-radius:14px;
+    /* border-radius:14px; */
 }
 .a-bg-white:hover {
     background: #fff;
@@ -204,6 +204,8 @@ nav.menu {
     transform: translate(-50%, 0);
     margin-top: 60px;
     grid-row-gap:0px;
+    place-content: center;
+
 }
 .hamburger {
     display: none;
@@ -229,6 +231,7 @@ nav.menu {
 @media (min-width: 900px) {
     nav.menu {
         grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, minmax(10px,280px));
         grid-template-rows: auto;
         grid-auto-columns: auto;
         grid-auto-rows: auto;
@@ -549,4 +552,105 @@ section.mobile-only h5,section.mobile-only {
     font-size:1.9em;
     padding-top:5px;
     margin-top:5px;
+}
+
+/* added stuff */
+
+
+
+/* grid-menu.css | https://3000-red-owl-b6ymxkz1.ws-us03.gitpod.io/css/grid-menu.css?v=1 */
+
+header {
+  /* height: 64px; */
+  height: 101px;
+}
+
+nav.header {
+  /* height: 100%; */
+  height: 84%;
+}
+
+nav.menu {
+  /* max-width: 1170px; */
+  /* margin-top: 60px; */
+  max-width: 100%;
+  margin-top: 106px;
+  place-items: start center;
+}
+
+nav.header .learnMore {
+  /* border-width: 1px; */
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  /* width: 120px; */
+  border-width: 4px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  width: 142px;
+}
+
+nav.header a {
+  /* border-radius: 14px; */
+}
+
+@media (min-width: 900px) {
+  nav.header {
+    /* grid-template-columns: 260px minmax(0, auto) 123px 167px 120px 120px 120px minmax(1px, 150px); */
+    grid-template-columns: 260px minmax(0, auto) 123px 123px 167px 120px 120px minmax(1px, 150px);
+  }
+}
+
+/* Element | https://3000-red-owl-b6ymxkz1.ws-us03.gitpod.io/ */
+
+.header > div:nth-child(1) {
+  span-rows: 10;
+  grid-column: span 8;
+}
+
+/* Element | https://3000-red-owl-b6ymxkz1.ws-us03.gitpod.io/ */
+
+.sticking > div:nth-child(5) {
+  height: 23px;
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: ;
+  text-align: right;
+}
+
+/* Element | https://3000-red-owl-b6ymxkz1.ws-us03.gitpod.io/ */
+
+.sticking {
+  /* border-bottom: 6px solid rgb(232, 123, 30); */
+  border-bottom: 6px solid rgb(255, 255, 255);
+}
+
+/* Element | https://3000-red-owl-b6ymxkz1.ws-us03.gitpod.io/ */
+
+.sticking > div:nth-child(5) > div:nth-child(1) > a:nth-child(1) {
+  font-size: 14px;
+}
+
+/* Element | https://3000-red-owl-b6ymxkz1.ws-us03.gitpod.io/ */
+
+.sticking > div:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+/* Element | https://3000-red-owl-b6ymxkz1.ws-us03.gitpod.io/ */
+
+.sticking > div:nth-child(5) > div:nth-child(1) {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* global.css | https://3000-red-owl-b6ymxkz1.ws-us03.gitpod.io/global.css */
+
+nav.header a {
+  /* border-radius: 14px; */
 }

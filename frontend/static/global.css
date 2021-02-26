@@ -39,7 +39,7 @@ code {
 /*! CSS Used from: http://127.0.0.1:8887/css/bfs-base.css?v=1 */
 a,body,div,form,h2,h5,header,iframe,img,nav,p,section,span,strong{border:0;font:inherit;margin:0;padding:0;vertical-align:baseline;}
 header,nav,section{display:block;}
-body{background-color:#e5e5e5;color:#333;font-family:Helvetica,Arial,sans-serif;font-size:13.5px;font-size:1.35rem;line-height:1.33333333;-webkit-font-smoothing:antialiased;}
+body{background-color:#e5e5e5;color:#333;font-family:Helvetica,Arial,sans-serif;font-size:13.5px;font-size:1rem;line-height:1.33333333;-webkit-font-smoothing:antialiased;}
 img{height:auto;max-width:100%;vertical-align:middle;-ms-interpolation-mode:bicubic;}
 :focus{outline:0;}
 a{background-color:transparent;color:#06c;line-height:inherit;text-decoration:none;}
@@ -193,9 +193,9 @@ section#getStartedModal div .logincopy,section#getStartedModal2 div .logincopy{f
 .icon--menu:after,.icon--menu:before{display:inline-block;-webkit-transition:0.3s;transition:0.3s;background:#fff;height:100%;width:101%;content:"";position:absolute;left:0;-webkit-transform:scaleX(0.6875);-ms-transform:scaleX(0.6875);transform:scaleX(0.6875);-webkit-transform-origin:0 center;-ms-transform-origin:0 center;transform-origin:0 center;will-change:transform;}
 .icon--menu:before{top:7px;}
 .icon--menu:after{top:-7px;}
-.menu.bookfairs,.menu.efairs{display:none;border-radius:14px;}
+.menu.bookfairs,.menu.efairs{display:none;}
 nav.header{margin:0 auto;display:grid;grid-template-rows:auto;align-items:center;width:101%;max-width:1220px;height:100%;}
-nav.header a{text-decoration:none;color:#fff;font-size:14px;margin-top:10px;text-align:center;height:46px;padding:20px 15px 0 15px;white-space:nowrap;min-width:100px;text-align:center!important;border-radius:14px;}
+nav.header a{text-decoration:none;color:#fff;font-size:14px;margin-top:10px;text-align:center;height:46px;padding:20px 15px 0 15px;white-space:nowrap;min-width:100px;text-align:center!important;}
 .a-bg-white:hover{background:#fff;color:#00529c;}
 nav.header a:nth-child(1){margin-top:-9px;}
 nav.header .learnMore{border-width:1px;border-style:solid;padding-top:10px;padding-bottom:10px;padding-left:15px;padding-right:15px;background:#e87b1e;color:#fff!important;border-color:#fff;border-radius:37.5px;text-decoration:none;white-space:nowrap;margin:0;font-size:16px;font-weight:light;width:120px;}

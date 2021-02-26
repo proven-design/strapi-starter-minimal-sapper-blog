@@ -1,6 +1,7 @@
 let header = document.createElement('header');
 let bfMenu = document.createElement('nav');
 let sefMenu = document.createElement('nav');
+let loginBand = document.createElement('div');
 let currentWidth = getWidth();
 window.onresize = currentWidth;
 
@@ -38,13 +39,13 @@ header.innerHTML = `
   <img src="https://follettbookfairs.com/images/FBF-White.png" width="224">
   </a>
   <a class="hide-670"></a>
+  <a class="hide-899 hide-670"></a>
   <a href="/bookfairs" class="a-bg-white hide-460 bfLink hover-menu" data-menu="bfMenu">Book Fairs</a>
   <a href="/schoolefairs" class="a-bg-white hide-460 sefLink hover-menu"  data-menu="sefMenu">Online Book Fairs</a>
   <a href="/mission" class="hide-899">Our Mission</a>  
   <a class="nav-number hide-899" href="tel:${getPhone()}">${getPhone()}</a>
   <button class="btn btn-orange nav-btn learnMore">Get Started</button>
  
-  <a href="#" class="existing-login hide-899">Already have an account?<strong>Log in here.</strong></a> 
   <button class="header__menu-button toggle-menu hamburger">
 <div class="header__menu-button-content">
   <div class="header__menu-button-icon">
@@ -57,6 +58,12 @@ header.innerHTML = `
 `;
 
 document.body.insertAdjacentElement('afterbegin', header);
+
+loginBand.innerHTML = `
+<div style="height: 23px;width: 100%;background: white;display: flex;flex-direction: column-reverse;max-width: ;text-align: right;"><div style="/*! margin: 0 auto; */width: 100%;max-width: 1220px;margin: 0 auto;display: flex;flex-direction: row-reverse;"><a href="" style="font-size: 14px;">Already have an account? <strong> Log in here</strong></a><div style="margin: 0 auto;max-width: 1140px;"></div></div></div>
+`;
+
+header.insertAdjacentElement('afterbegin', loginBand);
 
 
 bfMenu.innerHTML = `
@@ -333,14 +340,14 @@ header.style.background = '#00529c';
 header.classList.add('sticking');
 
 if (document.URL.includes('/efairs') == 1) {
-    header.style.borderBottom = `6px solid #4fb2ad`;
+    header.style.borderBottom = `6px solid #ffffff`;
     header.style.borderColor = '#4fb2ad!important';
     // console.log(document.URL.includes('/efairs'))
     } 
     
 if (!document.URL.includes('/efairs')) {
         // console.log(document.URL.includes('/efairs'));
-    header.style.borderBottom = `6px solid #e87b1e`;
+    header.style.borderBottom = `6px solid #ffffff`;
 }
 
 if (document.URL.includes('/fairs')) {
