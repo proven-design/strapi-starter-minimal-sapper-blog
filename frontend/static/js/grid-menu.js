@@ -39,7 +39,7 @@ header.innerHTML = `
   <img src="https://follettbookfairs.com/images/FBF-White.png" width="224">
   </a>
   <a class="hide-670"></a>
-  <a class="hide-899 hide-670"></a>
+  <a class="hide-899 hide-670 hide-1220"></a>
   <a href="/bookfairs" class="a-bg-white hide-460 bfLink hover-menu" data-menu="bfMenu">Book Fairs</a>
   <a href="/schoolefairs" class="a-bg-white hide-460 sefLink hover-menu"  data-menu="sefMenu">Online Book Fairs</a>
   <a href="/mission" class="hide-899">Our Mission</a>  
