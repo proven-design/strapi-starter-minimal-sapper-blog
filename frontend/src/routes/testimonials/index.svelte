@@ -33,22 +33,12 @@
 		return {posts: results.data.blogs}
 	}
 
+
 </script>
 
 <script>
 	export let posts;
 </script>
-
-<style>
-	ul, p {
-		margin: 0 0 1em 0;
-		line-height: 1.5;
-	}
-
-	.main-title {
-		font-size: 25px;
-	}
-</style>
 
 <svelte:head>
 	<title>Testomonials</title>
@@ -162,18 +152,18 @@
 {#each posts as post}
    <div class="cardparent" data-isolde-el="article">
 											<div class="card ">
-												<img class="card__picture" src="{post.Cover}"
+												<img class="card__picture" src="http://1337-red-owl-b6ymxkz1.ws-us03.gitpod.io{post.Cover.url}"
 													alt="">
 												<div class="card-infos">
-													<h2 class="card__title">{post.Title}{post.Cover}</h2>
+													<h2 class="card__title">{post.Title}</h2>
 													<p class="card__text">
 														<strong>{moment().to(post.Published, "DD-MM-YYYY")} ago by </strong>
 														 <br>
-														{post.author.username}<br>
+														<br>
 													</p>
 
 													<a class="btn btn-orange nav-btn readMore"
-														rel='prefetch' href='articles/{post.Slug}'>Read about {post.Title}</a>
+														rel='prefetch' href='articles/{post.Slug}'>{post.Title}</a>
 												
 												</div>
 											</div>

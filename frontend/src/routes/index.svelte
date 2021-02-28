@@ -113,11 +113,10 @@
 							<div>
 								<div class="wrapper">
 
-									<div id="isolde" class="isolde-default">
-										
-                                        <div class="cardparent" data-isolde-el="article">
+								<div id="isolde" class="isolde-default">
+										<div class="cardparent" data-isolde-el="article">
 											<div class="card ">
-												<img class="card__picture" src="./assets/images/testimonial1.jpg"
+												<img class="card__picture" src="https://follettbookfairs.com/testimonials/assets/images/testimonial1.jpg"
 													alt="">
 												<div class="card-infos">
 													<h2 class="card__title">“WHAT I LOVED ABOUT THE FOLLETT BOOK FAIR
@@ -131,20 +130,130 @@
 													</p>
 
 													<button class="btn btn-orange nav-btn readMore"
-														>Read
+														data-src="https://www.follettcommunity.com/s/article/book-fair-testimonial-tanya-pepin">Read
 														More</button>
-												
+													<a href="" style="color:#00529c"></a>
 												</div>
 											</div>
 										</div>
 
-									
+										<div class="cardparent" data-isolde-el="testimonial">
+											<div class="card ">
+												<img class="card__picture" src="https://follettbookfairs.com/testimonials/assets/images/testimonial2.jpg"
+													alt="">
+												<div class="card-infos">
+													<h2 class="card__title">“THE FOLLETT BOOK FAIR OFFEREDBY FAR THE
+														BEST SELECTION OF BOOKS WE HAVE EVER HAD.”</h2>
+													<p class="card__text">
+														<strong>CHERI DOBBS</strong> <br>
+														PK3-12 Coordinator of Library Services and Middle School
+														Librarian <br>
+														Detroit Country Day School <br>
+														Detroit, Michigan<br>
+													</p>
 
-									
-									
-									
+													<button class="btn btn-orange nav-btn readMore"
+														data-src="https://www.follettcommunity.com/s/article/book-fair-testimonial-cheri-dobbs">Read
+														More</button>
+													<a href="" style="color:#00529c"></a>
+												</div>
+											</div>
+										</div>
 
-										
+										<div class="cardparent" data-isolde-el="testimonial">
+											<div class="card ">
+												<img class="card__picture" src="https://follettbookfairs.com/testimonials/assets/images/testimonial3.jpg"
+													alt="">
+												<div class="card-infos">
+													<h2 class="card__title">“THIS WAS BY FAR MY BEST BOOK FAIR
+														EXPERIENCE EVER!”</h2>
+													<p class="card__text">
+														<strong>RENEE HALE</strong><br>
+														Library Media Specialist <br>
+														Drakes Creek Middle School<br>
+														Warren County Public Schools, KY<br>
+													</p>
+
+													<button class="btn btn-orange nav-btn readMore"
+														data-src="https://www.follettcommunity.com/s/article/Book-Fair-Testimonial-Renee-Hale">Read
+														More</button>
+													<a href="" style="color:#00529c"></a>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="cardparent" data-isolde-el="article">
+											<div class="card ">
+												<img class="card__picture" src="https://follettbookfairs.com/testimonials/assets/images/testimonial4.jpg"
+													alt="">
+												<div class="card-infos">
+													<h2 class="card__title">“I DID MY LAST TWO BOOK FAIRS WITH FOLLETT,
+														AND THE EXPERIENCE WAS FAR SUPERIOR IN EVERY WAY TO MY PREVIOUS
+														15 BOOK FAIRS - QUALITY BOOKS, NO TOYS AND EASY-TO-READ SIGNS ON
+														CARTS TO HELP STUDENTS FIND WHAT THEY WANT. I GOT TO CHOOSE THE
+														MODULES I WANTED, AND THE CUSTOMER SERVICE WAS INCREDIBLE!”</h2>
+													<p class="card__text">
+														<strong>SHERI CALLOW</strong><br>
+														Librarian<br>
+														Bowman Charter School, Ackerman School District<br>
+														Auburn, CA<br>
+													</p>
+
+													<button class="btn btn-orange nav-btn readMore"
+														data-src="https://www.follettcommunity.com/s/article/book-fair-testimonial-sheri-callow">Read
+														More</button>
+													<a href="" style="color:#00529c"></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="cardparent" data-isolde-el="article">
+											<div class="card ">
+												<img class="card__picture" src="https://follettbookfairs.com/testimonials/assets/images/testimonial5.jpg"
+													alt="">
+												<div class="card-infos">
+													<h2 class="card__title">"MY READERS WERE THRILLED BY THE HUGE
+														SELECTION OF DIFFERENT TITLES!"</h2>
+													<p class="card__text">
+														<strong>SHERI CALLOW</strong><br>
+														Librarian<br>
+														Bowman Charter School, Ackerman School District<br>
+														Auburn, CA<br>
+													</p>
+
+													<button class="btn btn-orange nav-btn readMore"
+														data-src="https://www.follettcommunity.com/s/article/book-fair-testimonial-sheri-callow">Read
+														More</button>
+													<a href="" style="color:#00529c"></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="cardparent" data-isolde-el="article">
+											<div class="card ">
+												<img class="card__picture" src="https://follettbookfairs.com/testimonials/assets/images/testimonial6.jpg"
+													alt="">
+												<div class="card-infos">
+													<h2 class="card__title">
+														"I HAVE HAD OTHER BOOK FAIRS IN THE PAST," SHE SAID. "IN
+														COMPARISON, FOLLETT'S FAIR WAS MORE 'SETTER-UPPER-FRIENDLY!'"
+													</h2>
+													<p class="card__text">
+														<strong>JENNIFER BITZKIE</strong><br>
+														Librarian<br>
+														Kendall Elementary School<br>
+														Boerne, TexasIndependent School District
+													</p>
+
+													<button class="btn btn-orange nav-btn readMore"
+														data-src="https://www.follettcommunity.com/s/article/book-fair-testimonial-sheri-callow">Read
+														More</button>
+													<a href="" style="color:#00529c"></a>
+												</div>
+											</div>
+										</div>
+
 									</div>
 								</div>
 							</div>

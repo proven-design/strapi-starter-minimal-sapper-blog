@@ -1,0 +1,124 @@
+.isolde-default{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  transition: height .2s ease-out, opacity .2s ease-out .2s;
+}
+[data-isolde-el]{
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform .2s ease-out;
+}
+
+.card {
+  box-shadow: 0 40px 120px -20px rgba(0, 0, 0, 0.2);
+  
+  transition: all(1s);
+  scale:1;
+  padding:20px;
+
+  background-image:url(/testimonials/assets/images/cardbg.jpg);
+  background-repeat: no-repeat;
+  background-position:bottom right;
+  background-size:100%;
+}
+
+.card.weblink {
+  background-image:url(/images/cardbg-weblink.jpg);
+}
+
+.card.blank {
+  background-image:url(/images/cardbg-blank.jpg);
+}
+
+.card.orange {
+  background-image:url(/images/cardbg-orange.jpg);
+}
+
+.card:hover {
+  transition: all(1s);
+  box-shadow: 0 40px 120px -40px #00539c;
+
+}
+
+
+
+.card__title {
+  color:#00529c;
+
+
+}
+
+.cardparent {
+
+}
+
+.white-band {
+  padding-top:20px;
+}
+
+.pop-out {
+  transition: all(1s);
+  
+}
+
+.pop-out:hover {
+  transition: all(1s);
+}
+
+.testimonialsbg {
+background: url(/images/rewardsbg.jpg) !important;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-image: url("/images/rewardsbg.jpg");
+    background-size: auto;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+background-position: bottom !important;
+}
+
+.readMore {
+  border-radius: 37.5px;
+  color: black !important;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  background: white;
+  background-color: white;
+  text-decoration: none;
+  font-size: 1em;
+  white-space: nowrap;
+  font-weight: bolder;
+  background: #00529c;
+  color: white !important;
+  border-color: white;
+}
+
+.readMore:hover {
+  background-color: rgba(255,255,255,1);
+color: #00529c !important;
+border-color: #00529c;
+}
+
+.card__title {
+  font-size:1.3em;
+  padding-top:15px;
+
+}
+
+.readMoreText {
+
+}
+
+.card__picture {
+  width:100%;
+}
